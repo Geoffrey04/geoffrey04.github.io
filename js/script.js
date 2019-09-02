@@ -1,4 +1,3 @@
-
 //SMOOTH PAGE SCROLL
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -64,5 +63,52 @@ $(window).load(function() { // makes sure the whole site is loaded
   $('body').delay(350).css({'overflow':'visible'});
 })
 //]]>
+
+// K_c
+
+function secret(){
+    var kKeys = [];
+    function Kpress(e){
+        kKeys.push(e.keyCode);
+        if (kKeys.toString().indexOf("38,38,40,40,37,39,37,39,66,65") >= 0) {
+            jQuery(this).unbind('keydown', Kpress);
+            kExec();
+        }
+    }
+    jQuery(document).keydown(Kpress);
+}
+function kExec(){
+    var css = 'html {-webkit-filter: invert(100%);' +
+        '-moz-filter: invert(100%);' +
+        '-o-filter: invert(100%);' +
+        '-ms-filter: invert(100%); }',
+        head = document.getElementsByTagName('head')[0],
+        style = document.createElement('style');
+
+    if (!window.counter) {
+        window.counter = 1;
+    } else  {
+        window.counter ++;
+        if (window.counter % 2 == 0) {
+            var css ='html {-webkit-filter: invert(0%); \
+   				 -moz-filter: invert(0%); \
+   				 -o-filter: invert(0%); \
+   				 -ms-filter: invert(0%); \
+   				}'
+        }
+    };
+
+    style.type = 'text/css';
+    if (style.styleSheet){
+        style.styleSheet.cssText = css;
+    } else {
+        style.appendChild(document.createTextNode(css));
+    }
+
+    head.appendChild(style);
+}
+
+
+secret();
 
 
