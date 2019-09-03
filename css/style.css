@@ -27,6 +27,8 @@ text-transform: uppercase;
 .icon_s , svg {
 	width: 75% !important;
 	height: 61% !important;
+	vertical-align: middle;
+	margin-bottom: 25%;
 }
 
 
