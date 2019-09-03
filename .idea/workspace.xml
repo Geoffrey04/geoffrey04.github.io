@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="743e6354-0552-471a-a5e2-27901e1246c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="264" column="308" selection-start-line="264" selection-start-column="308" selection-end-line="264" selection-end-column="308" />
+            <state relative-caret-position="119">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -75,6 +74,7 @@
       <find>section</find>
       <find>br</find>
       <find>twitter</find>
+      <find>alt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,7 +160,7 @@
       <workItem from="1567255618047" duration="1339000" />
       <workItem from="1567353874316" duration="6878000" />
       <workItem from="1567422749207" duration="26876000" />
-      <workItem from="1567512823328" duration="8169000" />
+      <workItem from="1567512823328" duration="9665000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1 form contact">
       <created>1567365227113</created>
@@ -225,11 +225,25 @@
       <option name="project" value="LOCAL" />
       <updated>1567524128339</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="correc w3c">
+      <created>1567524946600</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567524946600</updated>
+    </task>
+    <task id="LOCAL-00011" summary="correc w3c">
+      <created>1567525061419</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567525061419</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51731000" />
+    <option name="totallyTimeSpent" value="53227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -271,7 +285,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="Ajout svg" />
     <MESSAGE value="alignement svg" />
-    <option name="LAST_COMMIT_MESSAGE" value="alignement svg" />
+    <MESSAGE value="correc w3c" />
+    <option name="LAST_COMMIT_MESSAGE" value="correc w3c" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/preview.jpg">
@@ -402,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="264" column="308" selection-start-line="264" selection-start-column="308" selection-end-line="264" selection-end-column="308" />
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
