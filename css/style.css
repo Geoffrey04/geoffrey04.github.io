@@ -24,10 +24,12 @@ text-transform: uppercase;
 	color: #204d74;
 }
 
-.icon_s {
+.icon_s , svg {
 	width: 75% !important;
 	height: 61% !important;
 }
+
+
 .nicescroll-rails > div {
 	background-color: #204d74 !important;
 	border: 1px solid #204d74 !important;
