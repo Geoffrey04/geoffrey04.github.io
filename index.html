@@ -6,7 +6,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155679981-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-155679981-1');
@@ -23,8 +26,8 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-     <!-- Preloader -->
-    <link rel="stylesheet" href="css/preloader.css" type="text/css" media="screen, print"/>
+    <!-- Preloader -->
+    <link rel="stylesheet" href="css/preloader.css" type="text/css" media="screen, print" />
     <!-- Icon Font-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
@@ -49,60 +52,62 @@
 </head>
 
 <body>
-                <!-- Preloader -->
-                <div id="preloader">
-                    <div id="status">&nbsp;</div>
-                </div>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
     <header id="HOME" style="background-position: 50% -125px;">
-	        <div class="section_overlay">
-	            <nav class="navbar navbar-default navbar-fixed-top">
-	              <div class="container">
-	                <!-- Brand and toggle get grouped for better mobile display -->
-	                <div class="navbar-header">
-	                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <div class="section_overlay">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 	                    <span class="sr-only">Toggle navigation</span>
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                  </button>
-	                </div>
+                    </div>
 
-	                <!-- Collect the nav links, forms, and other content for toggling -->
-	                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	                  <ul class="nav navbar-nav navbar-right">
-	                    <li><a href="#HOME">Accueil</a></li>
-	                    <li><a href="#SERVICE">Compétences</a></li>
-	                    <li><a href="#ABOUT">A propos de</a></li>
-	                    <li><a href="#WORK">Portfolio</a></li>
-	                    <li><a href="#CONTACT">Contact</a></li>
-	                  </ul>
-	                </div><!-- /.navbar-collapse -->
-	              </div><!-- /.container -->
-	            </nav> 
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#HOME">Accueil</a></li>
+                            <li><a href="#SERVICE">Compétences</a></li>
+                            <li><a href="#ABOUT">A propos de</a></li>
+                            <li><a href="#WORK">Portfolio</a></li>
+                            <li><a href="#CONTACT">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container -->
+            </nav>
 
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-md-12 text-center">
-	                        <div class="home_text wow fadeInUp animated">
-	                            <h2>Geoffrey Dohen</h2>
-	                            <p>Développeur web</p>
-	                            <img src="images/shape.png" alt="dessin vague bleue">
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="home_text wow fadeInUp animated">
+                            <h2>Geoffrey Dohen</h2>
+                            <p>Développeur web</p>
+                            <img src="images/shape.png" alt="dessin vague bleue">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-md-12 text-center">
-	                        <div class="scroll_down">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="scroll_down">
                             <a href="#SERVICE"><img src="images/scroll.png" alt="image souris"></a>
-	                            <h4>Défiler en bas</h4>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>            
-	        </div>
+                            <h4>Défiler en bas</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
 
@@ -120,7 +125,7 @@
                     <div class="single_service wow fadeInUp" data-wow-delay="2s">
                         <i class="icon-gears"></i>
                         <h2>JavaScript</h2>
-                        <p>Vanilla | Jquery | AngularJs </p>
+                        <p>Vanilla | Jquery </p>
                     </div>
                 </div>
                 <div class="col-md-3 text-center">
@@ -137,7 +142,7 @@
                         <p>PhpStorm | VisualCode | Slack </p>
                     </div>
                 </div>
-            </div>            
+            </div>
         </div>
     </section>
     <section class="about_us_area" id="ABOUT">
@@ -157,25 +162,25 @@
                     <div class="single_progress_bar">
                         <h2>HTML/CSS - 90%</h2>
                         <div class="progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                            <span class="sr-only">60% Complete</span>
-                          </div>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">60% Complete</span>
+                            </div>
                         </div>
                     </div>
                     <div class="single_progress_bar">
                         <h2>JavaScript - 60%</h2>
                         <div class="progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                            <span class="sr-only">60% Complete</span>
-                          </div>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                <span class="sr-only">60% Complete</span>
+                            </div>
                         </div>
                     </div>
                     <div class="single_progress_bar">
                         <h2>PHP - 75%</h2>
                         <div class="progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                            <span class="sr-only">60% Complete</span>
-                          </div>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                <span class="sr-only">60% Complete</span>
+                            </div>
                         </div>
                     </div>
                     <div class="single_progress_bar">
@@ -189,17 +194,17 @@
                     <div class="single_progress_bar">
                         <h2>Outils - 95%</h2>
                         <div class="progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
-                            <span class="sr-only">60% Complete</span>
-                          </div>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                                <span class="sr-only">60% Complete</span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4  wow fadeInRight animated">
-                    <p class="about_us_p">Développeur web passionné par l'informatique. <br>
-                        Formé à ce poste, les langages du web riches et dynamiques ont su pousser ma passion en autodictacte. À travers une veille technologique approndie sur de nombreux projets techniques avec à coeur une base technique,<br>
-                        <a target="_blank" href="https://www.w3.org/html/">HTML5</a> | <a target="_blank" href="https://www.w3.org/Style/CSS/">CSS3</a> (framework : <a target="_blank" href="https://getbootstrap.com/">Bootstrap</a> )Javascript (framework : <a target="_blank" href="https://jquery.com/">Jquery</a>) en front-end et pour la partie back-end <a target="_blank" href="https://secure.php.net/">PHP</a> (framework :<a target="_blank" href="https://symfony.com/">Symfony</a>).<br>
-                        De plus, j'ai su acquérir des compétences en gestion de bases de données en SQL .</p>
+                    <p class="about_us_p">Développeur web passionné par l'informatique. <br> Formé à ce poste, les langages du web riches et dynamiques ont su pousser ma passion en autodictacte. À travers une veille technologique approndie sur de nombreux projets techniques
+                        avec à coeur une base technique,<br>
+                        <a target="_blank" href="https://www.w3.org/html/">HTML5</a> | <a target="_blank" href="https://www.w3.org/Style/CSS/">CSS3</a> (framework : <a target="_blank" href="https://getbootstrap.com/">Bootstrap</a> )Javascript (framework
+                        : <a target="_blank" href="https://jquery.com/">Jquery</a>) en front-end et pour la partie back-end <a target="_blank" href="https://secure.php.net/">PHP</a> (framework :<a target="_blank" href="https://symfony.com/">Symfony</a>).<br>                        De plus, j'ai su acquérir des compétences en gestion de bases de données en SQL .</p>
                 </div>
                 <div class="col-md-4  wow fadeInRight animated">
                     <img src="images/logos-html-css-js-php-sql.png" alt="Logo-html-css-js-php-sql" style="max-width : 60%">
@@ -208,7 +213,7 @@
             </div>
         </div>
     </section>
-    
+
 
     <section class="testimonial text-center wow fadeInUp animated">
         <div class="container">
@@ -224,29 +229,29 @@
                     <p>Choisissez un travail que vous aimez et vous n'aurez pas à travailler un seul jour de votre vie.</p>
                     <h4>-Confucius</h4>
                 </div>
-            </div>            
+            </div>
         </div>
     </section>
 
 
     <div class="fun_facts">
-    	<section class="header parallax home-parallax page" id="fun_facts" style="background-position: 50% -150px;">
-	        <div class="section_overlay">
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-md-6 wow fadeInLeft animated">
-	                        <div class="row">
-	                        </div>
-	                    </div>
-	                    <div class="col-md-5 col-md-offset-1 wow fadeInRight animated">
-	                        <div class="imac">
-	                            <img src="images/imac.png" alt="image imac bureau">
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </section>    
+        <section class="header parallax home-parallax page" id="fun_facts" style="background-position: 50% -150px;">
+            <div class="section_overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 wow fadeInLeft animated">
+                            <div class="row">
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1 wow fadeInRight animated">
+                            <div class="imac">
+                                <img src="images/imac.png" alt="image imac bureau">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     <section class="work_area" id="WORK">
         <div class="container">
@@ -275,7 +280,9 @@
                     <div class="single_image">
                         <img src="images/w3.png" alt="fil liste twitter">
                         <div class="image_overlay_twt">
-                            <a class="twitter-timeline" data-lang="fr" data-width="639" data-height="338" data-theme="dark" href="https://twitter.com/Gabjea_dev/lists/dev?ref_src=twsrc%5Etfw">A Twitter List by Gabjea_dev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <a class="twitter-timeline" data-lang="fr" data-width="639" data-height="338" data-theme="dark" href="https://twitter.com/Gabjea_dev/lists/dev?ref_src=twsrc%5Etfw">A Twitter List by Gabjea_dev</a>
+                            <script async src="https://platform.twitter.com/widgets.js"
+                                charset="utf-8"></script>
                         </div>
                     </div>
                 </div>
@@ -286,7 +293,7 @@
                             <a href="https://github.com/cyriakleclercq/projetLabo">Github</a>
                             <h2>Adventure lab</h2>
                             <h4>Jeux</h4>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
             </div>
@@ -296,7 +303,7 @@
                         <img src="images/w3.png" alt="image methode agile">
                         <div class="image_overlay">
                             <a href="https://fr.wikipedia.org/wiki/M%C3%A9thode_agile">+ d'infos</a>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 no_padding">
@@ -306,7 +313,7 @@
                             <a href="https://uptofourmies.fr/">Voir le site</a>
                             <h2>UptoFourmies</h2>
                             <h4>Site promotion 2018/2019</h4>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 no_padding">
@@ -314,10 +321,10 @@
                         <img src="images/w4.jpg" alt="image mot vide">
                         <div class="image_overlay">
                             <a href="https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-vue_mod%C3%A8le">+ d'infos</a>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
-            </div>           
+            </div>
         </div>
     </section>
     <section class="contact" id="CONTACT">
@@ -340,11 +347,11 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <label for="inputname">Votre nom</label>
-                                    <input type="text" class="form-control" name="name" id="inputname"  placeholder="Nom">
+                                <input type="text" class="form-control" name="name" id="inputname" placeholder="Nom">
                                 <label for="inputemail">Votre email</label>
-                                    <input type="email" class="form-control" name="email" id="inputemail" placeholder="Email">
+                                <input type="email" class="form-control" name="email" id="inputemail" placeholder="Email">
                                 <label for="inputsubject">Au sujet de</label>
-                                    <input type="text" class="form-control" name="subject" id="inputsubject" placeholder="Objet">
+                                <input type="text" class="form-control" name="subject" id="inputsubject" placeholder="Objet">
                             </div>
                             <div class="col-md-6">
                                 <label for="inputmessage">Votre message</label>
@@ -368,7 +375,7 @@
     </section>
 
 
-<footer>
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center   wow fadeInUp animated">
@@ -393,9 +400,9 @@
                 </div>
             </div>
         </div>
-</footer>
+    </footer>
 
-<!-- =========================
+    <!-- =========================
      SCRIPTS 
 ============================= -->
     <script src="js/jquery.min.js"></script>
@@ -406,4 +413,5 @@
     <script src="js/script.js"></script>
 
 </body>
+
 </html>
